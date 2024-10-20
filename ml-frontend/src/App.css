@@ -1,0 +1,78 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #121212; /* Dark background */
+  color: #ffffff; /* White text */
+  height: 100vh; /* Full height */
+  display: flex; /* Flexbox for centering */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+}
+
+.app-container {
+  max-width: 600px;
+  width: 100%; /* Full width for responsiveness */
+  padding: 20px;
+  background: #1e1e1e; /* Darker card background */
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #ffffff; /* White text */
+}
+
+.input-container {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #555; /* Lighter border for visibility */
+  border-radius: 4px;
+  background-color: #333; /* Darker input background */
+  color: #ffffff; /* White text */
+  transition: border 0.3s;
+}
+
+.input-field:focus {
+  border-color: #007bff; /* Blue border on focus */
+  outline: none;
+}
+
+.predict-button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff; /* Blue button */
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.predict-button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+.prediction-container {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 20px;
+  color: #ffffff; /* White text */
+}
